@@ -19,20 +19,27 @@
 
 .menuItem:hover {
   text-decoration: underline;
+  color: black;
 }
 
 /***** Hamburger Button Styling *****/
 
 .hamburger {
   position: fixed;
-  z-index: 100;
   top: 1rem;
   right: 1rem;
   padding: 4px;
 
+  font-family: 'Mukta', sans-serif;
+
   border: black solid 1px;
   background: white;
   cursor: pointer;
+}
+
+.hamburger:hover {
+  background-color: black;
+  color: white;
 }
 
 /***** Menu Display *****/
@@ -41,7 +48,7 @@
   position: fixed;
   transform: translateY(-100%);
   transition: transform 0.2s;
-  
+
   top: 0;
   left: 0;
   right: 0;
