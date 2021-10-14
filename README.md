@@ -11,3 +11,7 @@
 ### Fonts
 
 - [Mukta Font](https://fonts.google.com/specimen/Mukta) designed by Ek Type
+
+### Tutorials
+
+- [w3schools](https://www.w3schools.com/Jsref/prop_style_display.asp) helped me to create my if else statement.
