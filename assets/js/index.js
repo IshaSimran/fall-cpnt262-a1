@@ -3,30 +3,30 @@
 // Variables
 
 const menu = document.querySelector('.menu');
-const menuItems = document.querySelectorAll('.menuItem');
-const hamburger = document.querySelector('.hamburger');
-const menuIcon = document.querySelector('.menuIcon');
-const closeIcon = document.querySelector('.closeIcon');
+const menuItem = document.querySelectorAll('.menuItem');
+const button = document.querySelector('.button');
+const openMenu = document.querySelector('.openMenu');
+const closeMenu = document.querySelector('.closeMenu');
 
 // Function Statement 
 
 function toggleMenu() {
   if (menu.classList.contains('showMenu')) {
     menu.classList.remove('showMenu');
-    closeIcon.style.display = 'none';
-    menuIcon.style.display = 'block';
+    closeMenu.style.display = 'none';
+    openMenu.style.display = 'block';
   } else {
     menu.classList.add('showMenu');
-    closeIcon.style.display = 'block';
-    menuIcon.style.display = 'none';
+    closeMenu.style.display = 'block';
+    openMenu.style.display = 'none';
   }
 }
 
 // Event Listeners
 
-hamburger.addEventListener('click', toggleMenu);
+button.addEventListener('click', toggleMenu);
 
-menuItems.forEach(
+menuItem.forEach(
   function (menuItem) {
     menuItem.addEventListener('click', toggleMenu);
   }
