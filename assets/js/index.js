@@ -8,7 +8,7 @@ const hamburger = document.querySelector('.hamburger');
 const menuIcon = document.querySelector('.menuIcon');
 const closeIcon = document.querySelector('.closeIcon');
 
-// Function Statement
+// Function Statement 
 
 function toggleMenu() {
   if (menu.classList.contains('showMenu')) {

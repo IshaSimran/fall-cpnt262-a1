@@ -14,4 +14,4 @@
 
 ### Tutorials
 
-- [w3schools](https://www.w3schools.com/Jsref/prop_style_display.asp) helped me to create my if else statement.
+- [w3schools](https://www.w3schools.com/Jsref/prop_style_display.asp) helped me to create my function/if else statement.
