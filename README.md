@@ -5,6 +5,7 @@
 
 - [GH Pages Site](https://ishasimran.github.io/fall-cpnt262-a1/)
 
+I created a simple hamburger style drop down menu. 
 
 ## Attributions
 

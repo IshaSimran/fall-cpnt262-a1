@@ -3,10 +3,10 @@
 // Variables
 
 const menu = document.querySelector('.menu');
-const listItem = document.querySelectorAll('.listItem');
 const button = document.querySelector('.button');
 const openMenu = document.querySelector('.openMenu');
 const closeMenu = document.querySelector('.closeMenu');
+const food = document.querySelectorAll('.food');
 
 // Function Statement 
 
@@ -26,8 +26,8 @@ function toggleMenu() {
 
 button.addEventListener('click', toggleMenu);
 
-listItem.forEach(
-  function (listItem) {
-    listItem.addEventListener('click', toggleMenu);
+food.forEach(
+  function (food) {
+    food.addEventListener('click', toggleMenu);
   }
-)
+);

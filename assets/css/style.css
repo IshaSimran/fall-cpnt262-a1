@@ -63,7 +63,7 @@
 
 /***** Menu Items *****/
 
-.listItem {
+.food {
   display: block;
   margin: 2rem 4rem;
 
@@ -73,7 +73,7 @@
   text-decoration: none;
 }
 
-.listItem:hover {
+.food:hover {
   text-decoration: underline;
   color: black;
 }
