@@ -13,6 +13,6 @@ I created a simple hamburger style drop down menu.
 
 - [Mukta Font](https://fonts.google.com/specimen/Mukta) designed by Ek Type
 
-### Tutorials
+### Tutorials/Examples
 
 - [w3schools](https://www.w3schools.com/Jsref/prop_style_display.asp) helped me to create my function/if else statement.

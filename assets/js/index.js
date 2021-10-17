@@ -1,3 +1,5 @@
+// Strict Mode
+
 'use strict';
 
 // Variables
