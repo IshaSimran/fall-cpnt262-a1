@@ -8,7 +8,7 @@ const openMenu = document.querySelector('.openMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const food = document.querySelectorAll('.food');
 
-// Function Statement 
+// Function Statement to display menu
 
 function toggleMenu() {
   if (menu.classList.contains('showMenu')) {
@@ -22,7 +22,7 @@ function toggleMenu() {
   }
 }
 
-// Event Listeners
+// Menu button clicker
 
 button.addEventListener('click', toggleMenu);
 
